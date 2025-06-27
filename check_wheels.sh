@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# pay attention : avail_wheels --all torch
+# This would see all versions of torch, but here I didn't use it
+# here I just check "there is a package exists in CC"
+
 REQ_FILE="requirements.txt"
 
 echo "🧪 Checking available wheels from Compute Canada for each package in $REQ_FILE"
